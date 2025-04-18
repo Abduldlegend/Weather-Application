@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#app{
+    position: relative;
+    width: 414px;
+    height: 420px;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px 0px;
+    overflow: hidden;
+    border-radius: 45px;
+    background-color: #113366;
+}
+
+#searchBar{
+    display: flex;
+    padding: 0 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#searchBarInput{
+    background-color: none;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: auto;
+    padding: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid lightblue;
+}
+
+input::placeholder{
+    color: white;
+    opacity: 0.6;
+}
+
+#searchIcon{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#date{
+    color: white;
+    margin-bottom: .5em;
+}
+
+#city{
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#description{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#temp{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+#extraInfo{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#extraInfo h5{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
