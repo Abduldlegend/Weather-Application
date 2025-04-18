@@ -100,7 +100,7 @@ input::placeholder{
     }
     #app{
         width: 95%;
-        height: 55vh;
+        height: 60vh;
         border-radius: 10px;
     }
 }
